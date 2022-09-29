@@ -1,16 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: marvpro;
 }
-body{
+
+body {
     background-color: rgb(255, 255, 255);
+}
+@font-face {
+    font-family: bol;
+    src: url("../fonts/MavenPro-ExtraBold.ttf");
 }
 @font-face {
     font-family: marvpro;
     src: url("../fonts/MavenPro-Regular.ttf");
 }
-header{
+
+header {
     font-family: marvenpro;
     display: flex;
     justify-content: space-between;
@@ -22,30 +28,34 @@ header{
     align-items: center;
     color: rgb(50, 44, 37);
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: none;
     gap: 1.5rem;
     color: aquamarine;
 }
-.kontakt{
+
+.kontakt {
     background-color: blueviolet;
     border-radius: 1rem;
-    padding:  .5rem  1rem;
+    padding: .5rem 1rem;
     color: rgb(255, 255, 255);
 }
-.name{
+
+.name {
     color: blueviolet;
     padding-left: 1rem;
 }
-a{
+
+a {
     color: rgb(74, 72, 69);
     text-decoration: none;
 }
 
-img{
+img {
     width: 45vh;
-    background-size: cover ;
+    background-size: cover;
     box-shadow: 1rem 1rem rgb(0, 0, 0);
 }
 
@@ -56,36 +66,51 @@ img{
     align-items: center;
     justify-content: center;
     gap: 25rem;
+    font-size: 18pt;
 }
-.namee{
+
+.namee {
     font-size: 35pt;
     width: 20rem;
 }
-.obtext{
+
+.obtext {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
-.down{
+
+.down {
     text-align: center;
     width: 10rem;
 }
-.will{
+
+.will {
     text-align: right;
 }
-.übermich{
+
+.übermich {
     display: flex;
-    gap: 25rem;
+    gap: 25em;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+
 }
-.über{
-    font-size: 50pt;
-    margin-left: 10rem;
+
+.über {
+    font-size: 5rem;
+    width: 18rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 4.9rem;
+    text-align-last: right;
+    font-family: bol;
 }
-.lorem{
+
+.lorem {
+    display: flex;
     text-align: left;
-}
-span{
-    margin-left: 3rem;
+    width: 30rem;
 }
